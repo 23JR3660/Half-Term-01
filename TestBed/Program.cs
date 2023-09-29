@@ -10,7 +10,17 @@ namespace TestBed
     {
         static void Main(string[] args)
         {
+            int x = 0;
 
+            do
+            {
+                Console.Write("Enter number: ");
+                x = int.Parse(Console.ReadLine());
+                Console.WriteLine(x);
+            } while (x > 0);
+
+            Console.WriteLine("DONE");
+            Console.ReadKey();
 
         }
     }
